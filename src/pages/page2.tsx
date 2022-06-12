@@ -9,8 +9,8 @@ export default function Home() {
       <main data-testid="index">
         <div className="h-screen flex flex-col justify-center align-middle text-center">
           State: {app.value}{' '}
-          <Link href={'/page2'} passHref>
-            <span className="cursor-pointer mt-4 mx-auto w-max px-4 py-2 rounded-lg bg-black text-white">Page2</span>
+          <Link href={'/'} passHref>
+            <span className="cursor-pointer mt-4 mx-auto w-max px-4 py-2 rounded-lg bg-black text-white">Index</span>
           </Link>
           <button onClick={() => send('CLICK')} className="mt-4 mx-auto w-max px-4 py-2 rounded-lg bg-black text-white">
             send(&apos;CLICK&apos;)
